@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #2C3639;
+    color: #EDEDED;
+    font-family:'Nunito' , sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #EDEDED;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ion-icon {
+    font-size: 3.6rem;
+}
+
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-weight: 600;
+    color: #2C3639;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+/* Header */
+.logo_name {
+    font-size: 25px;
+    font-weight: 900;
+}
+.icon ion-icon {
+    font-size:48px;
+}
+
+nav ul li a {
+    font-size:20px;
+    font-weight: 700;
+}
+
+nav ul {
+    display: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top:0;
+}
+
+.banner{
+    height: 400px;
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.banner-text {
+    text-align: center;
+    flex-grow: 1;
+    height: 200px;
+    background-color: rgba(0,0,0,0.6);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-text h1 {
+    font-size: 36px;
+    font-weight:900;
+}
+
+.banner-text h2 {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+/* Footer */
+footer {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.skill-card {
+    width:90%;
+    height:400px;
+    background:none;
+
+}
+
+.skill-card-image {
+    height: 60%;
+}
+
+.skill-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btn {
+    background: none;
+    border: 2px solid white;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+.skill-card-info p {
+    font-size: 15px;
+}
+
+.skill-card-info h3 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.section-title{
+    text-align:center;
+    font-size:30px;
+    padding: 20px;
+    
+}
+
+.skill-card-info{
+
+    padding: 0 20px;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+
+}
+
+.btn{
+    align-self: stretch;
+}
+
+.skills-wrapper {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+#contact {
+    padding: 20px;
+    display:flex;
+
+    flex-direction:column;
+    gap:20px;
+}
